@@ -70,7 +70,7 @@ export class WelcomeComponent implements OnInit {
     console.log(event)
 
     const file = event.fileList[0].originFileObj; // Lấy tệp ảnh từ sự kiện
-    this.imageForm.get('snap').setValue(file); // Thiết lập giá trị của FormControl 'image'
+    // this.imageForm.get('snap').setValue(file); // Thiết lập giá trị của FormControl 'image'
     if (file) {
       const fileReader = new FileReader();
       const formData = new FormData();
