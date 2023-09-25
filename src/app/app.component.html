@@ -14,21 +14,21 @@
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
       <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard">
         <ul>
-          <li nz-menu-item nzMatchRouter>
-            <a routerLink="/welcome">Welcome</a>
+          <li nz-menu-item nzMatchRouter routerLink="/dashboard">
+            <a>Ai Detection</a>
           </li>
-          <li nz-menu-item nzMatchRouter>
-            <a>Monitor</a>
+          <li nz-menu-item nzMatchRouter routerLink="/dashboard/ai-detection">
+            <a>Cgate</a>
           </li>
-          <li nz-menu-item nzMatchRouter>
-            <a>Workplace</a>
+          <li nz-menu-item nzMatchRouter routerLink="/dashboard">
+            <a>Censor</a>
           </li>
         </ul>
       </li>
       <li nz-submenu nzOpen nzTitle="Form" nzIcon="form">
         <ul>
-          <li nz-menu-item nzMatchRouter>
-            <a>Basic Form</a>
+          <li nz-menu-item nzMatchRouter routerLink="/welcome">
+            <a>Welcome</a>
           </li>
         </ul>
       </li>
